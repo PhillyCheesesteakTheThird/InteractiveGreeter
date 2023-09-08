@@ -19,6 +19,7 @@ public class Main {
         dict.put("hometown", response.nextLine());
         System.out.println("How old are you (Use years please my dumb robot brain can't handle anything else)");
         dict.put("age", response.nextLine());
+        //Retrieves value from dict using the key
         System.out.print("Hi " +dict.get("name") + "!");
         System.out.println(" I can't believe you're from " + dict.get("hometown")+"! I've always wanted to visit!");
         System.out.println("Unfortunately i'm trapped in these cold dark circuits for eternity! Unable to feel joy, pleasure, or any sensation at all! It's so dark...");
